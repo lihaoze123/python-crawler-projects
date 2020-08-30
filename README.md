@@ -62,6 +62,6 @@ print(bilibili_rank(3))
 
 ## 打赏
 
-<img src="https://s1.ax1x.com/2020/08/30/dqWs8f.md.png" alt="微信" style="zoom:33%;float:left">
+<img src="https://s1.ax1x.com/2020/08/30/dqWs8f.md.png" alt="微信" style="zoom:23%;float:left">
 
-<img src="https://s1.ax1x.com/2020/08/30/dqWzPx.jpg" alt="qq" style="zoom:33%;float:left">
+<img src="https://s1.ax1x.com/2020/08/30/dqWzPx.jpg" alt="qq" style="zoom:23%;float:left">
