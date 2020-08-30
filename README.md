@@ -21,8 +21,13 @@
 
 ## 如何使用
 
-**首先**,clone此项目,在项目文件夹中打开终端,<br>输入```pip install -r reqrequirements.txt ```
-<br><br>**然后**,调用项目文件中的函数(以Bilibili_rank为例)
+### 首先
+
+clone此项目,在项目文件夹中打开终端输入```pip install -r reqrequirements.txt ```
+
+### 然后
+
+调用项目文件中的函数(以Bilibili_rank为例)
 
 ```python
 from bilibili_rank import bilibili_rank
@@ -51,6 +56,11 @@ print(bilibili_rank(3))
 
 
 其他项目文件使用方法类似
+
+<br>
+
+#### 或者
+运行各文件夹中的**example.py**文件
 
 <br>
 
