@@ -14,14 +14,15 @@
 |Bilibili_rank|查询bilibili日排行榜|只需调用**bilibili.py**中的bilibili_rank函数(传入number参数)|
 |AI_talk|和ai智能机器人聊天|调用[**小i机器人**](http://i.xiaoi.com/)API,能实现和<del>智能</del>智障聊天的功能|
 |Suo|查询奇奇怪怪的缩写|原项目:**[nbnhhsh](https://github.com/itorr/nbnhhsh)**,本项目调用网页版API,调用**suo**函数,传入字符串,如```"xz"```,会返回类似于**肖战**的字符串|
-|Geng|查询梗|调用**[小鸡词典](https://jikipedia.com/)**API|
+|Geng|查询梗|调用[**小鸡词典**](https://jikipedia.com/)API|
 
 
 <br>
 
 ## 如何使用
 
-**首先**,clone此项目,在项目文件夹中打开终端,<br>输入```pip install -r reqrequirements.txt ```<br>**然后**,调用项目文件中的函数(以Bilibili_rank为例)
+**首先**,clone此项目,在项目文件夹中打开终端,<br>输入```pip install -r reqrequirements.txt ```
+<br><br>**然后**,调用项目文件中的函数(以Bilibili_rank为例)
 
 ```python
 from bilibili_rank import bilibili_rank
