@@ -16,7 +16,6 @@ def ai_robot(sentence):
         'User-Agent': 'Mozilla / 5.0(Windows NT 10.0;Win64;x64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 84.0.4147.105Safari / 537.36Edg / 84.0.522.52'
     }
 
-    time.sleep(2)
     r = requests.get(url, headers=header).text
     # 匹配
     compile = re.compile(r'"content":".*?"')
