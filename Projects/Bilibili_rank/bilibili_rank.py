@@ -1,6 +1,8 @@
 from lxml import etree
 import requests
 
+__author__ == "Chumeng"
+
 def bilibili_rank(number):
     #爬虫
     header = {

@@ -1,6 +1,7 @@
-import requests, json, re
+import requests, re
 from urllib.parse import quote
-import time
+
+__author__ == "Chumeng"
 
 def ai_robot(sentence):
     sessionid = "test"

@@ -1,6 +1,8 @@
 import requests
 import json
 
+__author__ == "Chumeng"
+
 def suo(word):
     url = "https://lab.magiconch.com/api/nbnhhsh/guess"
     data = {"text": word}
@@ -13,7 +15,7 @@ def suo(word):
         trans = "搜查到的结果: \n{}".format(trans)
         return trans
     except KeyError:
-        return "啥傻逼玩意，网上没这缩写"
+        return "网络上没有找到此缩写"
 
 if __name__ == "__main__":
    print(suo(input("请输入要查询的缩写\n")))
