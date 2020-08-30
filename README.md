@@ -3,7 +3,7 @@
 这个仓库存放我暑假学习Python完成的一些爬虫项目，因为明天开学所以上传到Github上面开源，不小心瞅见这个项目的小哥哥小姐姐们记得给个star再走哦(爱心)
 
 
-
+<br>
 ## 有哪些
 
 目前为止我完成的Python项目有:
@@ -16,7 +16,7 @@
 |Geng|查询梗|调用**[小鸡词典](https://jikipedia.com/)**API|
 
 
-
+<br>
 ## 如何使用
 
 **首先**,clone此项目,在项目文件夹中打开终端,<br>输入```pip install -r reqrequirements.txt ```<br>**然后**,调用项目文件中的函数(以Bilibili_rank为例)
@@ -49,7 +49,7 @@ print(bilibili_rank(3))
 
 其他项目文件使用方法类似
 
-
+<br>
 
 ##  小提示
 
