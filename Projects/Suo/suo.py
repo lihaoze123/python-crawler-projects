@@ -1,7 +1,7 @@
 import requests
 import json
 
-__author__ == "Chumeng"
+__author__ = "Chumeng"
 
 def suo(word):
     url = "https://lab.magiconch.com/api/nbnhhsh/guess"

@@ -1,7 +1,7 @@
 import requests, re
 from urllib.parse import quote
 
-__author__ == "Chumeng"
+__author__ = "Chumeng"
 
 def ai_robot(sentence):
     sessionid = "test"
