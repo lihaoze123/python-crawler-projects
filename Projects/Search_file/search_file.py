@@ -6,10 +6,10 @@ def get_dir(dirname = str(pathlib.Path.home())):
     elif os.name == "nt":
         os.system("cls")
 
-    exit = False
     list_dirs = list()
     content = list()
-    dir_dict = {}
+
+    dir_dict = dict()
 
     step = 0
 
@@ -20,7 +20,7 @@ def get_dir(dirname = str(pathlib.Path.home())):
             content.append("{num}   {dir}\n".format(num = step, dir = i))
         content_result = "".join(content)
 
-    selected = input("已选择的文件夹'{selected}'\n请输入要选择的文件夹(按q退出):\n{content}".format(selected = dirname,content = content_result))
+    selected = input("已选择的文件夹'{selected}'\n\n请输入要选择的文件夹(按q退出):\n{content}".format(selected = dirname,content = content_result))
 
     if selected == "q":
         return 0
@@ -31,14 +31,14 @@ def get_dir(dirname = str(pathlib.Path.home())):
 
 
 
-def findfile(root_dir, file_type):
+def find_file(root_dir, file_type):
     list_dir = os.listdir(root_dir)
     list_file = list()
     compile = re.compile(r"^(.*?)..{}$".format(file_type))
     for dir in list_dir:
         dir = "{root_dir}/{dir}".format(root_dir=root_dir, dir=dir)
         if os.path.isdir(dir):
-            list_file = list_file + findfile(dir, file_type)
+            list_file = list_file + find_file(dir, file_type)
         elif re.findall(compile, dir):
             list_file.append(dir)
     return list_file
@@ -47,4 +47,4 @@ def findfile(root_dir, file_type):
 if __name__ == '__main__':
     dir = get_dir()
     find = input("请输入要查找的文件扩展名:\n")
-    print(findfile(dir, find))
+    print(find_file(dir, find))
