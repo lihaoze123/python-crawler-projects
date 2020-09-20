@@ -20,10 +20,14 @@ def get_dir(dirname = str(pathlib.Path.home())):
             content.append("{num}   {dir}\n".format(num = step, dir = i))
         content_result = "".join(content)
 
-    selected = input("已选择的文件夹'{selected}'\n\n请输入要选择的文件夹(按q确认):\n{content}\n".format(selected = dirname,content = content_result))
+    selected = input("已选择的文件夹'{selected}'\n\n请输入要选择的文件夹(按q确认, r返回上级):\n{content}\n".format(selected = dirname,content = content_result))
 
     if selected == "q":
         return 0
+    elif selected == "r":
+        result = os.path.dirname(dirname)
+        get_dir(result)
+        return result
     else:
         result = dirname + "/" + dir_dict[int(selected)]
         get_dir(result)
