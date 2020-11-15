@@ -9,7 +9,7 @@
 |Suo|查询奇奇怪怪的缩写|原项目:**[nbnhhsh](https://github.com/itorr/nbnhhsh)**,本项目调用网页版API,调用**suo**函数,传入字符串,如```"xz"```,会返回类似于**肖战**的字符串|
 |Geng|查询梗|调用[**小鸡词典**](https://jikipedia.com/)API|
 |Search_file|递归查找文件|前几天在学算法,用递归做了一个查找文件的插件,感觉还是挺有意义的|
-|Netnase|网易云音乐下载|练手作品|
+|Netnase|网易云音乐下载(不支持变灰音乐或者VIP尊享)|练手作品|
 
 
 <br>
