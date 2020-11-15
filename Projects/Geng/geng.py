@@ -49,5 +49,5 @@ def geng(ask):
     return post
 
 if __name__ == "__main__":
-    print(geng("sdkks"))
+    print(geng("nmsl"))
 
